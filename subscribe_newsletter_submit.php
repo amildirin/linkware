@@ -1,6 +1,6 @@
 <?php
 echo 'test commit';
-define("RECAPTCHA_V3_SECRET_KEY", 'YOUR_SECRET_HEREeee');
+define("RECAPTCHA_V3_SECRET_KEY", 'YOUR_SECRET_HEREeeeraja');
   
 if (isset($_POST['email']) && $_POST['email']) {
     $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
